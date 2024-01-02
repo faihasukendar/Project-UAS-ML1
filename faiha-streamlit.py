@@ -29,7 +29,7 @@ st.markdown(
 
 st.markdown("""<p id="title-1z2x">Market Basket Analysis</p>""", unsafe_allow_html=True)
 st.markdown("""<p id="caption-1z2x">Analisis Asosiasi Item Dengan Menggunakan Apriori</p>""", unsafe_allow_html=True)
-st.markdown("""<p id="caption-1z2x">Nama : Faiha xxxx | NIM : 21Xxxxx</p>""", unsafe_allow_html=True)
+st.markdown("""<p id="caption-1z2x">Nama : Faiha Atsaa S | NIM : 211351052</p>""", unsafe_allow_html=True)
 
 # Processing the CSV as Pandas DataFrame
 df = pd.read_csv("BreadBasket_DMS.csv")
