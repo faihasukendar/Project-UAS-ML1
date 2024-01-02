@@ -130,6 +130,9 @@ plt.ylabel("Perbandingan Jumlah Transaksi Tahun 2016 dan 2017")
 plt.tight_layout()
 ```
 
+![Grafik foto penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/bbdef2bc-69a2-475a-a1ed-51b4d93cd029)
+
+
 Menunjukan grafik dengan jumlah bulan terbanyak adalah November
 
 ```bash
@@ -142,6 +145,9 @@ bar.set_xticklabels(bar.get_xticklabels(), rotation=60)
 plt.ylabel("Jumlah Transaksi Perbulan")
 plt.tight_layout()
 ```
+
+![Grafik foto bulan dengan penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/e5798733-3564-4182-a769-bbb8da4a456e)
+
 
 Menunjukan  hari dengan penjulan terbanyak adalah hari Sabtu
 
@@ -156,6 +162,9 @@ plt.xticks(size = 12, rotation = 30)
 plt.title('Total Transaksi Perhari')
 ```
 
+![Grafik foto hari dengan penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/20e8cc61-c9c8-4dad-bc6c-dc5dd9f08f5f)
+
+
 Menunjukan grafik dengan jam yang paling banyak dipakai
 
 ```bash
@@ -165,6 +174,9 @@ plt.title("Data Penjualan Perjam")
 plt.xticks(rotation=90)
 ```
 
+![Grafik foto jam dengan penjualan terbanayak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/e1775733-7b0c-4e0a-b249-58f0444f2876)
+
+
 Menunjuakan grafik dengan menu yang paling banyak adalah Coffe
 
 ```bash
@@ -172,6 +184,9 @@ palette = sns.color_palette("pastel")
 plt.xticks(rotation=45)
 sns.countplot(x = 'Item', data = df, order = df['Item'].value_counts().iloc[:10].index, palette=palette)
 ```
+
+![Grafik foto item dengan penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/02acf822-eb15-4d8f-98a3-bc78f623d518)
+
 
 # Data Preparation
 
