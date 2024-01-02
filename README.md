@@ -289,4 +289,7 @@ print("Rekomendasi Paket Penjualan")
 display(recommendation_basket)
 ```
 
+![Screenshot (126)](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/3647aab6-bb8d-489f-9633-cf1317d50307)
+
+
 ## Deployment
