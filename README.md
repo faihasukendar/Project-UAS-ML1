@@ -293,3 +293,7 @@ display(recommendation_basket)
 
 
 ## Deployment
+
+[Market Data Analyst MBA ] (https://project-uas-ml1-4sbxnyha8rtigzkx7yuwa4.streamlit.app/)
+
+![Screenshot (127)](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/eb697fb6-1961-4736-9876-fe6b2ce3f915)
