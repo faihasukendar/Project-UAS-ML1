@@ -117,7 +117,7 @@ df.head()
 
 # EDA
 
-Menampilkan penjualan terbanyak dari tahun 2016 - 2017
+- Menampilkan penjualan terbanyak dari tahun 2016 - 2017
 
 ```bash
 n_credits = df.groupby("year")["Transaction"].count().rename("Count").reset_index()
@@ -133,7 +133,7 @@ plt.tight_layout()
 ![Grafik foto penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/bbdef2bc-69a2-475a-a1ed-51b4d93cd029)
 
 
-Menunjukan grafik dengan jumlah bulan terbanyak adalah November
+- Menunjukan grafik dengan jumlah bulan terbanyak adalah November
 
 ```bash
 n_credits = df.groupby("month")["Transaction"].count().rename("Count").reset_index()
@@ -149,7 +149,7 @@ plt.tight_layout()
 ![Grafik foto bulan dengan penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/e5798733-3564-4182-a769-bbb8da4a456e)
 
 
-Menunjukan  hari dengan penjulan terbanyak adalah hari Sabtu
+- Menunjukan  hari dengan penjulan terbanyak adalah hari Sabtu
 
 ```bash
 data_perday = df.groupby('day')['Transaction'].count()
@@ -165,7 +165,7 @@ plt.title('Total Transaksi Perhari')
 ![Grafik foto hari dengan penjualan terbanyak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/20e8cc61-c9c8-4dad-bc6c-dc5dd9f08f5f)
 
 
-Menunjukan grafik dengan jam yang paling banyak dipakai
+- Menunjukan grafik dengan jam yang paling banyak dipakai
 
 ```bash
 palette = sns.color_palette("pastel")
@@ -177,7 +177,7 @@ plt.xticks(rotation=90)
 ![Grafik foto jam dengan penjualan terbanayak](https://github.com/faihasukendar/Project-UAS-ML1/assets/149061885/e1775733-7b0c-4e0a-b249-58f0444f2876)
 
 
-Menunjuakan grafik dengan menu yang paling banyak adalah Coffe
+- Menunjuakan grafik dengan menu yang paling banyak adalah Coffe
 
 ```bash
 palette = sns.color_palette("pastel")
