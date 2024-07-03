@@ -1,4 +1,3 @@
-Laporan Proyek Machine Learning
 
 ### Nama : Faiha Atsaa Sukendar
 
